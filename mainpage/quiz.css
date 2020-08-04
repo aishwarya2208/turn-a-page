@@ -1,0 +1,13 @@
+.formm{
+    background-color:#ffffffe5;
+    width:500px;
+    height:530px;
+    align:center;
+    margin: 0 auto;
+    box-shadow: 5px 10px #888888;
+}
+
+.headi{
+    text-align:center;
+    background-color: bisque; 
+}

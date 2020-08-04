@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="quiz.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="\turnapage\style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    </head>
+    <body style=" background-image:url(bg.jpg); background-repeat: no-repeat;background-size: cover;margin: 0;
+    padding: 0;">
+    <ul>
+            <li><a href="/turnapage/mainpage/main.php"><i class="fa fa-home" style="color:white"></i> &nbsp; Home</a></li>    
+        <li><a class="active" href="/turnapage/mainpage/logout.php"><i class="fa fa-minus-circle" style="color:white"></i> &nbsp; Logout</a></li>
+            <li><a href="/turnapage/mainpage/history.php"> <i class="fa fa-history" style="color:white"></i> &nbsp; History</a></li>
+            <li><a href="/turnapage/homepage/contact.php"><i class="fa fa-wechat" style="color:white"></i> &nbsp; Contact</a></li>
+            <li><a href="/turnapage/mainpage/searchform.php"><i class="fa fa-search" style="color:white"></i> &nbsp; Search</a></li>
+            
+            <!-- <li><a href="#about">About</a></li> -->
+          </ul>
+          
+<div class="formm w3-display-container w3-display-middle">
+        <form action='quiz.php' method='POST' style="text-align:center">
+            <br/>
+                <h3>What is your mood right now?</h3>
+            <select name="mood">
+                <option  value='gloomy' name='gloomy' selected>I am gloomy!</option> 
+                <option  value="happy" name="happy">I am happy!</option> 
+                <option  value="spooky" name="spooky">I am spooked!</option> 
+                <option  value="bored" name="bored">I am feeling bored!</option> 
+            </select>
+            <br/>
+            <br/>
+            <h3>When I read a book I....</h3>
+            <select name="object">
+                <option value="stack" name="stack" selected> like a meticulous format of writing</option>
+                <option value="strange" name="strange">like surprises and twists</option>
+                <option value='classic' name='classic'>like to be transformed to yesteryears</option>
+                <option value="flowers" name="flowers">like butterflies and flowers singing</option>
+                <option value="fic" name="fic"> like my imagination to draw the course</option>
+            </select>
+            <br/>
+            <br/>
+            </br>
+            <h3>I'd like to read the books available only on Amazon</h3>
+            <input type="radio" value="yes" name="amazon">Yes!</input>
+            <input type="radio" value="no" name="amazon">No, I'd like the PDFs as well!</input>  <br/><br/>
+        <input type="submit" value="submit"/>   
+        </form>        
+        </div>
+
+        
+    </body>
+</html>
